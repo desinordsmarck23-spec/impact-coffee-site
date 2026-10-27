@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#171614">
+<meta name="description" content="Impact Coffee — Plus qu’un café, c’est un impact. Découvrez notre café moulu et rejoignez notre vision.">
+<title>Impact Coffee — Plus qu’un café, c’est un impact</title>
+<style>
+:root{--ink:#171614;--kraft:#a8794f;--cream:#f2e8d5;--gold:#b99a55;--green:#485b3c;--muted:#6d6255}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit}button,input,textarea,select{font:inherit}.topbar{background:var(--ink);color:var(--cream);padding:9px 5%;text-align:center;font-size:.82rem;letter-spacing:.08em}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 5%;background:var(--cream);position:sticky;top:0;z-index:10;border-bottom:1px solid #d9cbb2}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:900;letter-spacing:.1em}.cup{width:42px;height:42px;border:2px solid var(--gold);border-radius:50%;display:grid;place-items:center;font-size:22px;color:var(--gold)}.navlinks{display:flex;gap:20px;align-items:center;flex-wrap:wrap}.navlinks a{text-decoration:none;font-size:.92rem;font-weight:700}.lang{border:1px solid var(--gold);background:transparent;padding:7px 10px;border-radius:3px;cursor:pointer}.hero{background:var(--ink);color:var(--cream);padding:75px 7% 80px;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;overflow:hidden}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.2em;font-size:.76rem;font-weight:800}.hero h1{font-family:Georgia,serif;font-size:clamp(2.8rem,6vw,5.4rem);line-height:1.02;margin:15px 0 22px;max-width:700px}.hero p{font-size:1.1rem;color:#e1d5c0;max-width:570px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;text-decoration:none;padding:13px 19px;border:1px solid var(--gold);font-weight:800;cursor:pointer}.primary{background:var(--gold);color:var(--ink)}.secondary{color:var(--cream)}.product-art{min-height:330px;display:grid;place-items:center;position:relative;background:radial-gradient(ellipse at center,#5a432e 0,#30261d 48%,#171614 75%);border:1px solid #5b4b36;border-radius:48% 48% 8px 8px;padding:30px}.bag{width:min(250px,80%);height:310px;background:linear-gradient(100deg,#6b452c,#a8794f 48%,#7c5032);clip-path:polygon(5% 0,95% 0,100% 100%,0 100%);box-shadow:0 25px 45px #0008;display:flex;align-items:center;justify-content:center;text-align:center;padding:25px;color:#f2e8d5;position:relative}.bag:before{content:"";position:absolute;top:16px;left:8%;width:84%;border-top:3px solid #d1b58b}.labelbox{border:1px solid var(--gold);padding:24px 12px;width:100%}.labelbox .small{font-size:.65rem;letter-spacing:.2em}.labelbox strong{display:block;font-family:Georgia,serif;font-size:1.8rem;line-height:1.1;margin:10px 0}.labelbox span{font-size:.75rem;letter-spacing:.1em}.bean{position:absolute;color:var(--gold);font-size:2rem}.bean.b1{top:16%;left:12%;transform:rotate(-35deg)}.bean.b2{right:10%;bottom:15%;transform:rotate(25deg)}section{padding:72px 7%}.sectionhead{text-align:center;max-width:760px;margin:0 auto 38px}.sectionhead h2{font:700 clamp(2rem,4vw,3.1rem)/1.1 Georgia,serif;margin:10px 0}.sectionhead p{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:#fffaf1;border:1px solid #dfd0b8;padding:27px;border-radius:5px}.card .symbol{font-size:2rem;color:var(--kraft)}.card h3{font:700 1.4rem Georgia,serif;margin:12px 0 8px}.product{display:grid;grid-template-columns:.85fr 1.15fr;gap:45px;align-items:center;background:#e7d7bc}.productvisual{background:var(--ink);padding:30px;display:grid;place-items:center;min-height:360px}.productvisual .bag{height:285px}.tag{display:inline-block;background:#d7c39d;padding:5px 10px;font-size:.78rem;font-weight:800;letter-spacing:.04em}.product h2{font:700 clamp(2rem,4vw,3rem)/1.1 Georgia,serif}.product ul{padding-left:20px}.impact{background:var(--green);color:var(--cream);text-align:center}.impact .sectionhead p{color:#e2e7db}.impact .card{background:#ffffff0c;border-color:#ffffff36;color:var(--cream)}.impact .card p{color:#e2e7db}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}.field input,.field textarea,.field select{padding:12px;border:1px solid #cbb99d;background:#fffaf1;color:var(--ink);border-radius:3px}.field textarea{min-height:110px;resize:vertical}.contactlayout{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px}.contactinfo{background:var(--ink);color:var(--cream);padding:28px}.contactinfo a{color:var(--gold)}.note{font-size:.85rem;color:var(--muted)}footer{background:var(--ink);color:var(--cream);padding:30px 7%;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}footer p{margin:4px 0;color:#c9bda9;font-size:.88rem}.hidden{display:none!important}.mobilemenu{display:none}
+@media(max-width:800px){.nav{align-items:flex-start;flex-wrap:wrap}.navlinks{gap:12px}.hero,.product,.contactlayout{grid-template-columns:1fr}.hero{padding-top:50px}.product-art{min-height:300px}.grid{grid-template-columns:1fr}.formgrid{grid-template-columns:1fr}.field.full{grid-column:auto}section{padding:55px 6%}.navlinks a{font-size:.82rem}}
+</style>
+</head>
+<body>
+<div class="topbar" data-fr="CAFÉ MOULU • UNE VISION QUI VA PLUS LOIN" data-en="GROUND COFFEE • A VISION THAT GOES FURTHER">CAFÉ MOULU • UNE VISION QUI VA PLUS LOIN</div>
+<nav class="nav">
+<a class="brand" href="#home"><span class="cup">☕</span><span>IMPACT<br>COFFEE</span></a>
+<div class="navlinks">
+<a href="#produit" data-fr="Notre café" data-en="Our coffee">Notre café</a>
+<a href="#histoire" data-fr="Notre vision" data-en="Our vision">Notre vision</a>
+<a href="#partenaires" data-fr="Partenaires" data-en="Partners">Partenaires</a>
+<a href="#contact" data-fr="Contact" data-en="Contact">Contact</a>
+<button class="lang" id="langBtn" type="button">EN</button>
+</div>
+</nav>
+<main>
+<section class="hero" id="home">
+<div>
+<div class="eyebrow" data-fr="Bienvenue chez Impact Coffee" data-en="Welcome to Impact Coffee">Bienvenue chez Impact Coffee</div>
+<h1 data-fr="Plus qu’un café,<br>c’est un impact." data-en="More than coffee,<br>it’s an impact.">Plus qu’un café,<br>c’est un impact.</h1>
+<p data-fr="Découvrez le plaisir du café moulu et rejoignez une vision qui veut faire la différence, une tasse à la fois." data-en="Discover the pleasure of ground coffee and join a vision that aims to make a difference, one cup at a time.">Découvrez le plaisir du café moulu et rejoignez une vision qui veut faire la différence, une tasse à la fois.</p>
+<div class="actions"><a class="btn primary" href="#contact" data-fr="Commander sur WhatsApp" data-en="Order on WhatsApp">Commander sur WhatsApp</a><a class="btn secondary" href="#partenaires" data-fr="Devenir partenaire" data-en="Become a partner">Devenir partenaire</a></div>
+</div>
+<div class="product-art" aria-label="Illustration d’un sachet de café Impact Coffee"><span class="bean b1">✦</span><div class="bag"><div class="labelbox"><span class="small">CAFÉ MOULU • GROUND COFFEE</span><strong>IMPACT<br>COFFEE</strong><span>PLUS QU’UN CAFÉ</span><br><span>C’EST UN IMPACT</span></div></div><span class="bean b2">✦</span></div>
+</section>
+<section id="produit" class="product">
+<div class="productvisual"><div class="bag"><div class="labelbox"><span class="small">CAFÉ MOULU</span><strong>IMPACT<br>COFFEE</strong><span>PLUS QU’UN CAFÉ</span><br><span>C’EST UN IMPACT</span></div></div></div>
+<div>
+<span class="tag" data-fr="DISPONIBLE MAINTENANT" data-en="AVAILABLE NOW">DISPONIBLE MAINTENANT</span>
+<h2 data-fr="Le café moulu Impact Coffee" data-en="Impact Coffee Ground Coffee">Le café moulu Impact Coffee</h2>
+<p data-fr="Notre café en poudre est disponible en sachet. Nous préparons la suite avec soin : les bocaux arriveront bientôt." data-en="Our ground coffee is available in sachets. We’re carefully preparing the next step: jars are coming soon.">Notre café en poudre est disponible en sachet. Nous préparons la suite avec soin : les bocaux arriveront bientôt.</p>
+<ul><li data-fr="Café moulu, prêt à préparer" data-en="Ground coffee, ready to brew">Café moulu, prêt à préparer</li><li data-fr="Présentation en sachet" data-en="Sachet packaging">Présentation en sachet</li><li data-fr="Bocaux : bientôt disponibles" data-en="Jars: coming soon">Bocaux : bientôt disponibles</li></ul>
+<div class="actions"><a class="btn primary" href="#contact" data-fr="Demander le prix" data-en="Ask for the price">Demander le prix</a></div>
+<p class="note" data-fr="Le prix, le poids et les formats peuvent être confirmés directement avec notre équipe." data-en="Price, weight and available sizes can be confirmed directly with our team.">Le prix, le poids et les formats peuvent être confirmés directement avec notre équipe.</p>
+</div>
+</section>
+<section id="histoire">
+<div class="sectionhead"><div class="eyebrow" data-fr="Notre vision" data-en="Our vision">Notre vision</div><h2 data-fr="Un café avec une ambition." data-en="Coffee with a purpose.">Un café avec une ambition.</h2><p data-fr="Impact Coffee veut bâtir une marque de café autour de la qualité, de l’engagement et de l’impact positif. Nous avançons étape par étape, avec l’ambition de créer des opportunités et de grandir avec notre communauté." data-en="Impact Coffee aims to build a coffee brand around quality, commitment and positive impact. We are moving step by step, with the ambition to create opportunities and grow with our community.">Impact Coffee veut bâtir une marque de café autour de la qualité, de l’engagement et de l’impact positif. Nous avançons étape par étape, avec l’ambition de créer des opportunités et de grandir avec notre communauté.</p></div>
+<div class="grid">
+<article class="card"><div class="symbol">☕</div><h3 data-fr="Le produit" data-en="The product">Le produit</h3><p data-fr="Un café moulu présenté avec soin, dans une identité visuelle chaleureuse et reconnaissable." data-en="Ground coffee presented with care, in a warm and recognizable visual identity.">Un café moulu présenté avec soin, dans une identité visuelle chaleureuse et reconnaissable.</p></article>
+<article class="card"><div class="symbol">✦</div><h3 data-fr="L’impact" data-en="The impact">L’impact</h3><p data-fr="Une marque qui veut aller au-delà de la tasse et contribuer à des possibilités nouvelles." data-en="A brand that wants to go beyond the cup and help create new possibilities.">Une marque qui veut aller au-delà de la tasse et contribuer à des possibilités nouvelles.</p></article>
+<article class="card"><div class="symbol">♧</div><h3 data-fr="La croissance" data-en="The growth">La croissance</h3><p data-fr="Nous cherchons à grandir avec nos clients, distributeurs et partenaires de confiance." data-en="We aim to grow with our customers, distributors and trusted partners.">Nous cherchons à grandir avec nos clients, distributeurs et partenaires de confiance.</p></article>
+</div>
+</section>
+<section class="impact" id="partenaires">
+<div class="sectionhead"><div class="eyebrow" data-fr="Construisons ensemble" data-en="Let's build together">Construisons ensemble</div><h2 data-fr="Partenaires & sponsors recherchés" data-en="Seeking partners & sponsors">Partenaires & sponsors recherchés</h2><p data-fr="Vous êtes distributeur, commerçant, investisseur ou une organisation intéressée par notre vision ? Parlons de possibilités de collaboration." data-en="Are you a distributor, retailer, investor or organization interested in our vision? Let’s discuss opportunities to collaborate.">Vous êtes distributeur, commerçant, investisseur ou une organisation intéressée par notre vision ? Parlons de possibilités de collaboration.</p></div>
+<div class="grid">
+<article class="card"><div class="symbol">↗</div><h3 data-fr="Distribution" data-en="Distribution">Distribution</h3><p data-fr="Aidez-nous à rendre Impact Coffee accessible à davantage de clients." data-en="Help us make Impact Coffee accessible to more customers.">Aidez-nous à rendre Impact Coffee accessible à davantage de clients.</p></article>
+<article class="card"><div class="symbol">◇</div><h3 data-fr="Sponsoring" data-en="Sponsorship">Sponsoring</h3><p data-fr="Soutenez le développement de notre marque, de nos emballages et de nos actions marketing." data-en="Support the development of our brand, packaging and marketing activities.">Soutenez le développement de notre marque, de nos emballages et de nos actions marketing.</p></article>
+<article class="card"><div class="symbol">◎</div><h3 data-fr="Partenariat" data-en="Partnership">Partenariat</h3><p data-fr="Créons des collaborations utiles et durables autour du café." data-en="Let's create useful, lasting collaborations around coffee.">Créons des collaborations utiles et durables autour du café.</p></article>
+</div>
+<div class="actions" style="justify-content:center"><a class="btn primary" href="#contact" data-fr="Proposer une collaboration" data-en="Propose a collaboration">Proposer une collaboration</a></div>
+</section>
+<section id="contact">
+<div class="sectionhead"><div class="eyebrow" data-fr="Restons en contact" data-en="Get in touch">Restons en contact</div><h2 data-fr="Parlons d’Impact Coffee." data-en="Let's talk Impact Coffee.">Parlons d’Impact Coffee.</h2><p data-fr="Pour une commande, une demande de prix, une distribution ou un sponsoring, envoyez-nous votre message." data-en="For orders, pricing, distribution or sponsorship, send us a message.">Pour une commande, une demande de prix, une distribution ou un sponsoring, envoyez-nous votre message.</p></div>
+<div class="contactlayout">
+<div class="contactinfo"><h3>IMPACT COFFEE</h3><p data-fr="Plus qu’un café, c’est un impact." data-en="More than coffee, it’s an impact.">Plus qu’un café, c’est un impact.</p><p><strong>WhatsApp / Téléphone</strong><br><a href="https://wa.me/50943989181" target="_blank" rel="noopener">+509 4398 9181</a></p><p data-fr="Écrivez-nous pour connaître les prix, les formats disponibles et les possibilités de partenariat." data-en="Contact us for prices, available sizes and partnership opportunities.">Écrivez-nous pour connaître les prix, les formats disponibles et les possibilités de partenariat.</p></div>
+<form id="contactForm" class="card">
+<div class="formgrid">
+<label class="field"><span data-fr="Votre nom" data-en="Your name">Votre nom</span><input id="name" required placeholder="Nom / Name"></label>
+<label class="field"><span data-fr="Votre e-mail (facultatif)" data-en="Your email (optional)">Votre e-mail (facultatif)</span><input id="email" type="email" placeholder="email@example.com"></label>
+<label class="field full"><span data-fr="Objet" data-en="I'm interested in">Objet</span><select id="subject"><option value="Commande / Order">Commande / Order</option><option value="Prix / Pricing">Prix / Pricing</option><option value="Distribution">Distribution</option><option value="Partenariat / Partnership">Partenariat / Partnership</option><option value="Sponsoring">Sponsoring</option></select></label>
+<label class="field full"><span data-fr="Votre message" data-en="Your message">Votre message</span><textarea id="message" required placeholder="Votre message... / Your message..."></textarea></label>
+</div>
+<div class="actions"><button class="btn primary" type="submit" data-fr="Envoyer sur WhatsApp" data-en="Send via WhatsApp">Envoyer sur WhatsApp</button></div>
+<p class="note" data-fr="Le formulaire ouvre WhatsApp avec votre message préparé. Il ne stocke pas vos informations sur ce site." data-en="This form opens WhatsApp with your message prepared. Your information is not stored on this website.">Le formulaire ouvre WhatsApp avec votre message préparé. Il ne stocke pas vos informations sur ce site.</p>
+</form>
+</div>
+</section>
+</main>
+<footer><div><strong>☕ IMPACT COFFEE</strong><p data-fr="Plus qu’un café, c’est un impact." data-en="More than coffee, it’s an impact.">Plus qu’un café, c’est un impact.</p></div><p>© <span id="year"></span> Impact Coffee. <span data-fr="Tous droits réservés." data-en="All rights reserved.">Tous droits réservés.</span></p></footer>
+<script>
+let currentLang='fr';
+const langBtn=document.getElementById('langBtn');
+function setLang(lang){currentLang=lang;document.documentElement.lang=lang;document.querySelectorAll('[data-fr][data-en]').forEach(el=>{const val=el.getAttribute('data-'+lang);if(val!==null)el.innerHTML=val});langBtn.textContent=lang==='fr'?'EN':'FR';}
+langBtn.addEventListener('click',()=>setLang(currentLang==='fr'?'en':'fr'));
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('contactForm').addEventListener('submit',function(e){e.preventDefault();const name=document.getElementById('name').value.trim();const email=document.getElementById('email').value.trim();const subject=document.getElementById('subject').value;const message=document.getElementById('message').value.trim();const body=`Impact Coffee — ${subject}\nNom: ${name}\nE-mail: ${email||'Non renseigné'}\nMessage: ${message}`;window.open('https://wa.me/50943989181?text='+encodeURIComponent(body),'_blank','noopener');});
+</script>
+</body>
+</html>
